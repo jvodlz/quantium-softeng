@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
-. /.venv/Scripts/activate
-#pytest unit_test.py
+#!/bin/bash
+. .venv/Scripts/activate
+
 pytest --webdriver Firefox -k unit_test.py
 
 #Exit status of last task
